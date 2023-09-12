@@ -1,14 +1,15 @@
 import './App.css'
 import ConditionalRendering from './ConditionalRendering'
+import { Component } from 'react'
 
-
-function App() {
-  
-  return (
-    <>
-      <ConditionalRendering number={2} />
-    </>
-  )
+class App extends Component {
+  render() {
+    return (
+      <>
+        <ConditionalRendering number={2} />
+      </>
+    )
+  }
 }
 
 export default App
