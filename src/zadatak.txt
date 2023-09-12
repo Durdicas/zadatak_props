@@ -1,0 +1,19 @@
+ZADATAK
+Najbolji način da nešto naučite jest vježba, vidjeli ste sada kako poslati broj, a vaš zadatak kaže sljedeće.
+Nemojmo praviti to u ovoj istoj aplikaciji, nego napraviti novu react aplikaciju. Treba se učiti odmah kako treba.
+Potrebno napraviti React aplikaciju koja će imati slijedeće:
+	1.	Napraviti novu React aplikaciju. 
+	2.	Potrebno je napraviti dvije komponente
+(Dakle, glavna komponenta je App.js, ne morate je raditi, ona je već tu.)
+	3.	Glavna komponenta poziva drugu komponentu ConditionalRendering sa svojstvom (props) number
+(Dakle, kao svojstvo ćete poslati nekakav number.)
+	4.	U ovisnosti o poslanom broju treba ispisati drukčiji tekst (koristit ternary ? :) - primjer veci od 5, manji od 5 
+(Koristiti ternary ? :)
+(Dakle, sad dolazi na scenu ono što smo učili danas.)
+	5.	Ako se pošalje nedefinirani broj, komponenta ConditionalRendering ništa ne ispisuje
+(Dakle, ako ne pošaljete nedefinirani broj, dakle, null, undefined, ili bilo što što nije broj, ne ispišite ništa! Dakle, ovo vam je zapravo jako dobro. Možete koristiti onaj AND odmah na početnu one vaše komponente i reći: Ako ništa nije poslano, znači nije poslan neki validan broj, nemojte ništa ispisati. A ako je, ispišite: tekst veći od 5, manji od 5.)
+
+Samim time ponovit ćete i onaj import/export.
+Osobno, napravio bih to na način da, ako pošaljem broj veći od 5, napišite tekst: Broj je veći od 5. A ako taj broj nije veći od 5, onda ćete naravno napisati: Broj nije veći od 5.
+Dakle, to bi vam bila vježba za onaj ternarni operator.
+I možete dodati sa AND-om, koristeći onaj AND operator, da nije poslan nikakav broj.
